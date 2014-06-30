@@ -1,0 +1,22 @@
+$grid-cell-inner-padding: 13px 10px !default;
+$grid-cell-inner-text-overflow: ellipsis !default;
+
+$grid-row-cell-background-color: #fff !default;
+$grid-row-cell-alt-background-color: $grid-row-cell-background-color !default;
+
+$grid-row-cell-border-color: #f5f5f5 !default;
+$grid-row-cell-border-style: solid !default;
+$grid-row-cell-border-width: 5px !default;
+$grid-row-cell-color: #424242 !default;
+$grid-row-cell-font-weight: 600 !default;
+$grid-row-cell-line-height: 18px !default;
+
+$grid-row-cell-over-background-color: #fff !default;
+$grid-row-cell-over-border-color: #f5f5f5 !default;
+$grid-row-cell-over-color: #2969bf !default;
+
+$grid-body-border-width: 0 !default;
+
+.x-grid-row-over {
+	border-top: 0 !important;
+}

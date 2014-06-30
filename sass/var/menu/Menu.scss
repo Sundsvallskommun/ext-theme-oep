@@ -1,0 +1,39 @@
+$menu-item-icon-size: 13px !default;
+$menu-text-color: #424242 !default;
+$menu-separator-size: 1px !default;
+$menu-item-active-background-color: #fff !default;
+$menu-item-active-border-color: #e7e7e7;
+$menu-item-active-color: #2969bf !default;
+$menu-border-width: 1px !default;
+$menu-item-margin: 0 !default;
+$menu-item-border-width: 0 0 1px 0 !default;
+$menu-padding: 0 !default;
+$menu-item-trailing-padding: 4px !default;
+$menu-glyph-color: #808080 !default;
+$menu-scroller-height: 16px !default;
+
+$menu-scroller-opacity: .5 !default;
+$menu-scroller-opacity-over: .6 !default;
+$menu-scroller-opacity-pressed: .7 !default;
+$menu-component-margin: 2px !default;
+
+$menu-glyph-color: #808080 !default;
+
+$menu-item-height: 37px !default;
+
+$menu-item-arrow-height: 11px !default;
+$menu-item-arrow-width: 12px !default;
+
+.x-menu-item {
+	font-weight: 600;
+
+	&.x-menu-item-checked, .x-menu-item-active {
+
+		a {
+
+			span {
+				color: #2969bf !important;
+			}
+		}
+	}
+}

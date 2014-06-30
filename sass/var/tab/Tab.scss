@@ -1,0 +1,23 @@
+$tab-base-color: #dddddd !default;
+$tab-base-color-active: #f5f5f5 !default;
+$tab-base-color-over: $tab-base-color-active !default;
+
+$tab-color: #424242 !default;
+$tab-color-active: $tab-color !default;
+$tab-color-over: $tab-color !default;
+
+$tab-closable-icon-height: 8px !default;
+$tab-closable-icon-width: 8px !default;
+$tab-closable-icon-top: 5px !default;
+$tab-closable-icon-right: 5px !default;
+$tab-closable-icon-spacing: 0 !default;
+
+$tab-border-width: 0 !default;
+$tab-border-radius: 3px 3px 0 0 !default;
+
+$tab-inner-border-width: 1px 1px 0 !default;
+$tab-inner-border-color: #dddddd !default;
+
+$tab-padding: 7px 16px 8px !default;
+
+$tab-font-weight: 600 !default;

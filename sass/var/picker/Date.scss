@@ -1,0 +1,32 @@
+$datepicker-arrow-width: 7px !default;
+$datepicker-arrow-height: 11px !default;
+
+$datepicker-column-header-font-weight: 600 !default;
+
+$datepicker-background-color: #fff !default;
+$datepicker-item-color: #424242 !default;
+
+$datepicker-disabled-item-color: #cecbc5 !default;
+$datepicker-disabled-background-color: #fff !default;
+
+$datepicker-item-selected-font-weight: 400 !default;
+
+$datepicker-item-prev-next-color: #cecbc5 !default;
+
+$datepicker-footer-background-color: #cacaca !default;
+$datepicker-footer-border-color: #cacaca !default;
+$datepicker-footer-padding: 10px !default;
+$datepicker-footer-button-spacing: 10px !default;
+
+.x-datepicker {
+	border-color: #e7e7e7 !important;
+
+	.x-datepicker-header {
+		background: #f7f7f7 !important;
+		border: 1px solid #e7e7e7 !important;
+	}
+
+	.x-datepicker-today {
+		border-color: #cacaca !important;
+	}
+}

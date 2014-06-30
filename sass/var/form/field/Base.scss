@@ -1,0 +1,26 @@
+$form-field-background-color: #fff !default;
+$form-field-border-width: 1px !default;
+$form-field-border-color: #e7e7e7 !default;
+$form-field-border-radius: 3px !default;
+$form-field-padding: 10px !default;
+$form-field-color: #424242 !default;
+$form-field-height: 31px !default;
+
+$form-trigger-width: 16px !default;
+
+$form-error-icon-width: 11px !default;
+$form-error-icon-height: 11px !default;
+$form-error-msg-line-height: 11px !default;
+
+.x-form-trigger-wrap, .x-form-text {
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.x-form-text {
+	line-height: normal !important;
+}
+
+.x-form-trigger-input-cell {
+	font-size: 0;
+}

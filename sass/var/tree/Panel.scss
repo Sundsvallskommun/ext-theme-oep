@@ -1,0 +1,12 @@
+$tree-elbow-width: 13px !default;
+$tree-elbow-spacing: 4px !default;
+$tree-checkbox-spacing: 4px !default;
+$tree-icon-spacing: 4px !default;
+$tree-cell-inner-padding: 11px 10px 12px !default;
+
+$grid-row-cell-selected-background-color: #fff !default;
+$grid-row-cell-selected-color: #2969bf !default;
+
+.x-grid-cell-inner-treecolumn {
+	border-bottom: 1px solid #e7e7e7;
+}

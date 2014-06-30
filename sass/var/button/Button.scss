@@ -1,0 +1,100 @@
+$button-default-background-gradient: 'plain' !default;
+$button-default-background-gradient-over: 'plain' !default;
+$button-default-background-gradient-pressed: 'plain' !default;
+$button-default-background-color: #424242 !default;
+$button-default-background-color-pressed: #e7e7e7 !default;
+
+$button-default-color: #f5f5f5 !default;
+$button-default-color-over: #fff !default;
+$button-default-color-pressed: #424242 !default;
+
+$button-small-border-width: 0 !default;
+$button-small-font-size: 14px !default;
+$button-small-font-weight: 600 !default;
+$button-small-padding: 7px 4px 9px !default;
+$button-small-text-padding: 15px !default;
+
+$button-medium-border-width: 0 !default;
+
+$button-large-border-width: 1px !default;
+$button-large-border-color: #d1d1d1 !default;
+$button-large-font-size: 14px !default;
+$button-large-font-weight: 600 !default;
+$button-large-padding: 0 !default;
+$button-large-text-padding: 0 !default;
+$button-large-background-color: #fff !default;
+$button-large-background-color-over: #fff !default;
+
+$button-toolbar-color: #fff !default;
+$button-toolbar-background-color: #424242 !default;
+$button-toolbar-background-gradient: 'plain';
+$button-toolbar-background-gradient-over: 'plain';
+$button-toolbar-background-gradient-pressed: 'plain';
+$button-toolbar-background-color-pressed: #303030 !default;
+
+.x-action-btn {
+
+	td {
+		display: none !important;
+		background-image: none !important;
+
+		&.x-btn-mc {
+			display: block !important;
+			padding: 0 !important;
+			background: #fff !important;
+			border: 1px solid #d1d1d1 !important;
+		}
+	}
+
+	&.x-btn-pressed {
+
+		td.x-btn-mc {
+			background: #fff !important;
+		}
+	}
+
+	padding: 0 !important;
+	background: #fff !important;
+	border: 1px solid #d1d1d1 !important;
+
+	.x-btn-icon-el {
+		background-position: 0 0;
+	}
+
+	&:hover {
+		.x-btn-icon-el {
+			background-position: 0 -62px;
+		}
+	}
+
+	&.x-btn-default-large-disabled {
+
+		table {
+			margin-top: 1px;
+		}
+
+		.x-btn-icon-el {
+			background-position: 0 -31px;
+		}
+
+		&:hover {
+			.x-btn-icon-el {
+				background-position: 0 -31px;
+			}
+		}
+	}
+}
+
+.x-html-editor-tb {
+	.x-btn-plain-toolbar-small-menu-active, .x-btn-plain-toolbar-small-over, .x-btn-plain-toolbar-small-pressed, .x-btn-default-toolbar-small-focus {
+		background: #f7f7f7 !important;
+	}
+
+	.x-btn-default-toolbar-small {
+		background: transparent !important;
+
+		&.x-btn-default-toolbar-small-over {
+			background: #f7f7f7 !important;
+		}
+	}
+}

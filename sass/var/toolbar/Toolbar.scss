@@ -1,0 +1,214 @@
+$toolbar-background-color: #fff !default;
+
+$toolbar-border-color: #d1d1d1 !default;
+$toolbar-border-style: solid !default;
+$toolbar-border-width: 1px !default;
+
+$toolbar-text-padding: 0 !default;
+
+$toolbar-footer-background-color: #cacaca !default;
+$toolbar-footer-horizontal-spacing: 10px !default;
+$toolbar-footer-vertical-spacing: 10px !default;
+
+$oep-toolbar-horizontal-spacing: 10px !default;
+$oep-toolbar-vertical-spacing: 10px !default;
+
+
+$toolbar-separator-color: #424242 !default;
+$toolbar-separator-horizontal-height: 18px !default;
+
+.oep-tools {
+	border-radius: 3px !important;
+	border: 1px solid #d1d1d1 !important;
+	padding: 0 !important;
+	width: auto !important;
+
+	td {
+		display: none !important;
+		background-image: none !important;
+
+		&.x-btn-mc {
+			display: block !important;
+			padding: 0 !important;
+			background: #fff !important;
+		}
+	}
+
+	.x-btn-pressed {
+
+		td.x-btn-mc {
+			background: #424242 !important;
+		}
+	}
+
+	.x-box-inner {
+		width: auto !important;
+
+		.x-box-target {
+			width: auto !important;
+			position: static !important;
+
+			.x-btn {
+				position: static !important;
+				float: left !important;
+				width: auto !important;
+				background: #fff !important;
+				border-radius: 0 !important;
+				-webkit-border-radius: 0 !important;
+				-moz-border-radius: 0 !important;
+				-o-border-radius: 0 !important;
+				-ms-border-radius: 0 !important;
+				border-right: 1px solid #d1d1d1 !important;
+				padding: 0 !important;
+				height: 36px;
+
+				&.x-btn-icon {
+					.x-btn-icon-el {
+						width: 22px;
+						height: 22px;
+						margin: 7px 8px;
+						background-position: 0 0;
+					}
+
+					&.x-btn-over {
+						.x-btn-icon-el {
+							background-position: 0 -22px;
+						}
+					}
+
+					&.x-btn-pressed {
+						.x-btn-icon-el {
+							background-position: 0 -44px;
+						}
+					}
+				}
+
+				.x-btn-button {
+					width: 37px !important;
+					height: 36px !important;
+				}
+
+				.x-btn-inner {
+					color: #303030 !important;
+					font-weight: bold !important;
+					padding: 0 !important;
+				}
+
+				&.x-btn-over {
+					
+					.x-btn-inner {
+						color: #2969bf !important;
+					}
+				}
+
+				&.x-btn-pressed {
+					background: #303030 !important;
+
+					.x-btn-inner {
+						color: #fff !important;
+					}
+
+					&.x-btn-over {
+
+						.x-btn-inner {
+							color: #fff !important;
+						}
+					}
+				}
+			}
+
+			.oep-tools-last {
+				border-right: 0 !important;
+			}
+		}
+	}
+
+	.oep-tools-last {
+		border-right: 0 !important;
+		border-right-width: 0 !important;
+	}
+}
+
+.oep-map-tools {
+	border-radius: 3px !important;
+	border: 1px solid #d1d1d1 !important;
+	padding: 0 !important;
+	width: auto !important;
+
+	td {
+		display: none !important;
+		background-image: none !important;
+
+		&.x-btn-mc {
+			display: block !important;
+			padding: 0 !important;
+			background: #fff !important;
+		}
+	}
+
+	.x-btn-pressed {
+
+		td.x-btn-mc {
+			background: #303030 !important;
+		}
+	}
+
+	.x-box-inner {
+		width: auto !important;
+
+		.x-box-target {
+			width: auto !important;
+			position: static !important;
+
+			.x-btn {
+				position: static !important;
+				float: left !important;
+				width: auto !important;
+				background: #fff !important;
+				border-radius: 0 !important;
+				-webkit-border-radius: 0 !important;
+				-moz-border-radius: 0 !important;
+				-o-border-radius: 0 !important;
+				-ms-border-radius: 0 !important;
+				border-right: 1px solid #d1d1d1 !important;
+				padding: 7px 0 8px !important;
+
+				.x-btn-button {
+					width: auto !important;
+				}
+
+				.x-btn-inner {
+					color: #303030 !important;
+					font-weight: bold !important;
+					padding: 0 20px 0 19px !important;
+				}
+
+				&.x-btn-over {
+					
+					.x-btn-inner {
+						color: #2969bf !important;
+					}
+				}
+
+				&.x-btn-pressed {
+					background: #303030 !important;
+
+					.x-btn-inner {
+						color: #fff !important;
+					}
+
+					&.x-btn-over {
+
+						.x-btn-inner {
+							color: #fff !important;
+						}
+					}
+				}
+			}
+
+			.oep-tools-last {
+				border-right: 0 !important;
+			}
+		}
+	}
+}

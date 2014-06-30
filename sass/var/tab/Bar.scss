@@ -1,0 +1,12 @@
+$tabbar-scroller-opacity: .8 !default;
+$tabbar-scroller-opacity-over: 1.0 !default;
+$tabbar-scroller-opacity-pressed: .95 !default;
+
+$tabbar-strip-height: 4px !default;
+$tabbar-strip-border-color: #dddddd !default;
+$tabbar-strip-border-width: 1px 1px 0 !default;
+$tabbar-strip-plain-border-width: 1px 1px 0 !default;
+
+.x-tab-bar-body {
+	bottom: -1px;
+}

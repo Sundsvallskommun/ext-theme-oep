@@ -1,0 +1,32 @@
+$loadmask-background-color: #fff !default;
+$loadmask-msg-padding: 0 !default;
+$loadmask-msg-inner-padding: 0 !default;
+$loadmask-msg-inner-background-color: #fff !default;
+$loadmask-msg-inner-font-size: 0 !default;
+$loadmask-msg-border-radius: 3px !default;
+$loadmask-msg-border-width: 1px !default;
+$loadmask-msg-border-color: #bfbfbf !default;
+$loadmask-msg-text-padding: 14px 14px 17px 17px !default;
+
+.x-mask-msg-default {
+	overflow: visible !important;
+	
+	.x-mask-loading {
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-o-border-radius: 3px;
+		-ms-border-radius: 3px;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+		-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+		-moz-box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+		-o-box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+		-ms-box-shadow: 0 1px 5px rgba(0, 0, 0, .2);
+
+		.x-mask-msg-text {
+			text-indent: -9999px;
+			background-size: 24px;
+			background-position: center center !important;
+		}
+	}
+}

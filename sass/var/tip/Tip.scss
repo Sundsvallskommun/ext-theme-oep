@@ -1,0 +1,11 @@
+$include-default-uis: false !default;
+
+$tip-background-color: #fffae1 !default;
+$tip-border-color: #d0d0ce !default;
+
+.x-tip-default {
+	
+	.x-tip-mc, .x-tip-body {
+		background: #fffae1 !important;
+	}
+}

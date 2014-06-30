@@ -1,0 +1,38 @@
+$accordion-header-tool-size: 11px !default;
+$accordion-header-background-color: #424242 !default;
+$accordion-header-color: #fff !default;
+$accordion-tool-background-image: 'tools/tool-sprites' !default;
+$accordion-padding: 0 !default;
+$accordion-background-color: transparent !default;
+
+.x-accordion-hd {
+	background: #303030 !important;
+
+	.x-tool-img {
+		background-color: #303030 !important;
+	}
+
+	&.x-collapsed {
+		background: #424242 !important;
+
+		.x-tool-img {
+			background-color: #424242 !important;
+		}
+	}
+}
+
+.x-accordion-item.first {
+
+	.x-panel-header {
+		border-radius: 3px 3px 0 0;
+	}
+}
+
+.x-accordion-item.last {
+	border-radius: 0 0 3px 3px;
+	overflow: hidden;
+
+	.x-panel-header {
+		
+	}
+}

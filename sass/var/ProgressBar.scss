@@ -1,0 +1,36 @@
+$progress-background-color: #fff !default;
+$progress-height: 47px !default;
+$progress-text-color-back: #cacaca !default;
+$progress-text-color-front: $progress-text-color-back !default;
+$progress-text-font-size: 16px !default;
+$progress-text-font-weight: 600 !default;
+$progress-text-text-align: left !default;
+$progress-border-width: 0 !default;
+$progress-border-color: #cacaca !default;
+$progress-bar-background-color: #2969bf !default;
+
+.x-progress-text-back {
+	line-height: 43px !important;
+	border-bottom: 4px solid #cacaca;
+}
+
+.x-progress-bar {
+	height: 4px !important;
+	bottom: 0 !important;
+	overflow: visible !important;
+
+	&:after {
+		display: block;
+		position: absolute;
+		width: 110px;
+		height: 50px;
+		content: attr(data-progress);
+		top: -30px;
+		left: 466px;
+		color: #2969bf;
+		font-style: italic;
+		z-index: 9999999;
+		font-weight: 700;
+		text-align: right;
+	}
+}

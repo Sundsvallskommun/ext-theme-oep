@@ -1,0 +1,8 @@
+@function plain($direction, $bg-color) {
+    @return linear-gradient($direction, color_stops(
+        $bg-color,
+        $bg-color,
+        $bg-color,
+        $bg-color
+    ));
+}

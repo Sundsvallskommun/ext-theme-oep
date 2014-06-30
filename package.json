@@ -1,0 +1,13 @@
+{
+    "name": "osynlig-oep-theme",
+    "type": "theme",
+    "creator": "Osynlig AB",
+    "summary": "Theme for Open ePlatform",
+    "detailedDescription": "Theme for Open ePlatform",
+    "version": "1.0.0",
+    "compatVersion": "1.0.0",
+    "format": "1",
+    "local": true,
+    "requires": [],
+    "extend": "ext-theme-neptune"
+}

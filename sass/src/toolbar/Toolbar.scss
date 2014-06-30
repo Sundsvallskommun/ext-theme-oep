@@ -1,0 +1,19 @@
+@mixin extjs-toolbar-ui(
+    $ui: 'oep-toolbar',
+
+    $background-color: #cc0000 !important,
+    $background-gradient: $toolbar-background-gradient,
+
+    $border-color: $toolbar-border-color,
+    $border-width: $toolbar-border-width,
+    $scroller-cursor: $toolbar-scroller-cursor,
+    $scroller-cursor-disabled: $toolbar-scroller-cursor-disabled,
+    $scroller-opacity-disabled: $toolbar-scroller-opacity-disabled,
+    $tool-background-image: $toolbar-tool-background-image
+) {
+
+}
+
+.#{$prefix}toolbar-oep-toolbar {
+   background: #cc0000 !important;
+}
