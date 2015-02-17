@@ -1,0 +1,17 @@
+{
+  "name": "ext-theme-oep",
+  "version": "1.0.0",
+  "authors": [
+    "Sundsvalls Kommun"
+  ],
+  "description": "ExtJS theme for Open ePlatform and Open eMap",
+  "main": "dist/css/oepTheme-all.css",
+  "license": "CC0 1.0 Universal",
+  "homepage": "https://github.com/Sundsvallskommun/ext-theme-oep",
+  "private": true,
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "release"
+  ]
+}
