@@ -6,7 +6,7 @@
     "Sundsvalls Kommun"
   ],
   "description": "ExtJS theme for Open ePlatform and Open eMap",
-  "main": "build/resources/osynlig-oep-theme-all.css",
+  "main": "build/resources/ext-theme-oep-all.css",
   "license": "CC0 1.0 Universal",
   "private": true,
   "ignore": [
