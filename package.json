@@ -4,9 +4,18 @@
     "creator": "Osynlig AB",
     "summary": "Theme for Open ePlatform",
     "detailedDescription": "Theme for Open ePlatform",
-    "version": "1.6.1",
-    "compatVersion": "1.6.1",
+    "version": "1.7.0",
+    "compatVersion": "1.7.0",
     "format": "1",
+    "slicer": {
+        "js": [
+            {
+                "path": "${package.dir}/sass/example/custom.js",
+                "isWidgetManifest": true
+            }
+        ]
+    },
+    "output": "${package.dir}/build",
     "local": true,
     "requires": [],
     "extend": "ext-theme-neptune"

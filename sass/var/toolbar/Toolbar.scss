@@ -21,10 +21,24 @@ $toolbar-separator-horizontal-height: 18px !default;
 	border-radius: 3px !important;
 	border: 1px solid #d1d1d1 !important;
 	padding: 0 !important;
-	width: auto !important;
+	//width: auto !important;
+
+    .x-field-toolbar {
+        position: static !important;
+		float: left !important;
+		background: #fff !important;
+		border-radius: 0 !important;
+		border-right: 1px solid #d1d1d1 !important;
+		padding: 0 !important;
+		height: 36px;
+		
+		.x-form-trigger-wrap {
+		    border: 0px;
+		}
+    }
 
 	td {
-		display: none !important;
+		//display: none !important;
 		background-image: none !important;
 
 		&.x-btn-mc {
@@ -136,7 +150,7 @@ $toolbar-separator-horizontal-height: 18px !default;
 	width: auto !important;
 
 	td {
-		display: none !important;
+		//display: none !important;
 		background-image: none !important;
 
 		&.x-btn-mc {
